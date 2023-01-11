@@ -1,0 +1,16 @@
+swagger: "2.0"
+info:
+  title: ""
+  version: ""
+basePath: /
+paths:
+  /test/getInfo:
+    post:
+      operationId: GetInfo
+      consumes:
+      - '*/*'
+      produces:
+      - '*/*'
+      responses:
+        "200":
+          description: ""
